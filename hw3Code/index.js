@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/lengthCounts', (req, res) => {
-        fs.readFile('/home/g5hellyn_uuilliam/project/output/merged', 'utf8', (err, data) => {
+        fs.readFile('output/merged', 'utf8', (err, data) => {
                 if (err) {
                         console.error(err);
                 } else {
