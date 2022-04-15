@@ -1,3 +1,4 @@
+All code can be found at HW3Code folder:
 Endpoint NodeJS code at index.js
 sparktest.py calculates the output for /lengthCounts endpoint, then on terminal, run: cat output/part-00000 output/part-00001 > merged. /lengthCount endpoint reads the merged file
 /analyze endpoint pipes the received post request and run: "python3 spark_analyze.py [wordList] [weights] analyzed" which will automatically create analyzed/merged file.
